@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Random Referrer",
+  "version": "0.1",
+  "description": "This extension sets 'Referrer' header to a random value",
+  "author": "Sergey Saiyan",
+  "permissions": [ "background", "webRequest", "webRequestBlocking", "<all_urls>" ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
